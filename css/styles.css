@@ -1,0 +1,185 @@
+@media screen and (max-width:400px){
+
+  body .article-preview-container{
+    width: 80%;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 30px;
+  }
+
+  div .preview-photo{
+    border-radius: 15px 15px 0 0;
+    width: 100%
+  }
+
+  div .profile-text{
+    line-height:1;
+    /* padding-top:10px; */
+  }
+
+  div .share-container{
+    top: 250px;
+    right: 170px;
+  }
+
+  div .hidden-profile{
+    display:none;
+  }
+
+  body .share-container ::after{
+    border: 0px;
+
+
+  }
+
+  div .share-container{
+
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+    padding-bottom:5px;
+    padding-top: 10px;
+  }
+
+  div .show-icon{
+    display:inline-block;
+  }
+
+  .hidden-share-icon{
+    padding-bottom: 7px;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+}
+
+
+
+
+
+body{
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  color: hsl(214, 17%, 51%);
+  background-color: hsl(210, 46%, 95%);
+}
+
+h1{
+  font-size: 22px;
+  color:hsl(217, 19%, 35%);
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.article-preview-container{
+  height: 30%;
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.preview-text{
+  padding:50px 50px 25px 50px;
+}
+
+.preview-photo{
+  height:100%;
+  width:120%;
+  border-radius: 15px 0 0 15px;
+}
+
+.photo-container{
+  overflow-x: hidden;
+}
+
+.article-text{
+  margin: 20px auto 30px auto;
+  line-height: 1.7;
+}
+
+.profile-photo{
+  border-radius:50%;
+  height:50px;
+  width:50px;
+}
+
+.name{
+  color: hsl(217, 19%, 35%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.date{
+  font-size: 12px;
+}
+
+.profile-text{
+  line-height:0.3;
+  padding-top:10px;
+}
+
+.share{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 3;
+  margin-right:10px;
+}
+
+.share-container{
+  background-color: hsl(217, 19%, 35%);
+  display:block;
+  position: absolute;
+  width: 220px;
+  height: 40px;
+  top: 250px;
+  right: 170px;
+  text-align: center;
+  border-radius: 12px;
+  padding-bottom:5px;
+}
+
+.hidden-div{
+  display: none;
+}
+
+.share-icon{
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: hsl(210, 46%, 95%);
+
+}
+
+.share-container ::after{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top-color: hsl(217, 19%, 35%);
+  border-bottom: 0;
+  margin-left: -20px;
+  margin-bottom: -10px;
+}
+
+.social-media{
+  padding: 5px;
+}
+
+.hidden-icon{
+  display: none;
+}
+
+.show-icon{
+  display:none;
+}
+
+/* .hidden-profile{
+  display:block;
+} */
